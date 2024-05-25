@@ -30,13 +30,14 @@ Enter the project directory
 Start the Docker
 
 ```bash
-  dotnet compose up -d 
+  docker compose up -d 
 ```
 
 Start your live in OBS to:
 
 - Server: rtmp://localhost:1935/stream
 - Transmission Key: 123
+- Access: http://localhost:3000 
 
 Transmission key can be changed with required configuration, explore the project.
 
